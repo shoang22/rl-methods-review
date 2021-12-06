@@ -13,7 +13,7 @@ DDPG: Open the DDPG.py to modify the environment name on line 134, then run it i
 pytorch: 1. pip install pytorch 2. pip install torchvision  
 numpy: pip install numpy  
 gym: For macOS, Brew install cmake  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Brew install swig   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Brew install swig   
                 pip install gym  
                 git clone https://github.com/openai/gym  
                 cd gym  
