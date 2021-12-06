@@ -41,7 +41,7 @@ You do not need to download data, because all the environments are in gym librar
 
 ## Credit:
 ### DQN: https://zhuanlan.zhihu.com/p/137787080  
-*Difference: rewrite the code from tensorflow to pytorch  
+* Difference: rewrite the code from tensorflow to pytorch  
                  change replay_size from 2000 to 10000  
                  change learning rate from 0.001 to 0.01  
                  change the way of randomly selecting actions  
