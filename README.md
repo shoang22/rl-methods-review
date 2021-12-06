@@ -14,13 +14,13 @@ pytorch: 1. pip install pytorch 2. pip install torchvision
 numpy: pip install numpy  
 gym: For macOS, Brew install cmake  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Brew install swig   
-                pip install gym  
-                git clone https://github.com/openai/gym  
-                cd gym  
-                pip install -e .  
-                pip install -e '.[all]'  
-                pip install atari-py  
-                pip install box2d box2d-kengz  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;pip install gym  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;git clone https://github.com/openai/gym  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;cd gym  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;pip install -e .  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;pip install -e '.[all]'  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;pip install atari-py  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;pip install box2d box2d-kengz  
                 
 ## Demo file:
 You can just run the DQN.py  
@@ -30,7 +30,7 @@ You do not need to download data, because all the environments are in gym librar
 
 ## Credit:
 DQN: https://zhuanlan.zhihu.com/p/137787080  
-     Difference: rewrite the code from tensorflow to pytorch  
+&emsp;&emsp;&emsp;Difference: rewrite the code from tensorflow to pytorch  
                  change replay_size from 2000 to 10000  
                  change learning rate from 0.001 to 0.01  
                  change the way of randomly selecting actions  
