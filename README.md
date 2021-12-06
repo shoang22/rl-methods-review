@@ -1,4 +1,4 @@
-# rl-methods-review
+# RL-methods-review
 Review of Fundamental RL Algorithms for Game Control
 
 ## Running instruction:
