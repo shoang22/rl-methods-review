@@ -14,11 +14,11 @@ pytorch: 1. pip install pytorch 2. pip install torchvision
 numpy: pip install numpy  
 gym: For macOS
 ``
-Brew install cmake  
-Brew install swig   
-pip install gym  
-git clone https://github.com/openai/gym  
-cd gym  
+  Brew install cmake  
+  Brew install swig   
+  pip install gym  
+  git clone https://github.com/openai/gym  
+  cd gym  
 pip install -e .  
 pip install -e '.[all]'  
 pip install atari-py  
