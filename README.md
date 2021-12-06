@@ -10,9 +10,17 @@ DDPG: Open the DDPG.py to modify the environment name on line 134, then run it i
 
 
 ## Dependencies:
-pytorch: 1. pip install pytorch 2. pip install torchvision  
-numpy: pip install numpy  
-gym: For macOS
+### pytorch
+```
+pip install pytorch
+pip install torchvision  
+```
+### numpy
+```
+pip install numpy  
+```
+### gym
+For macOS
 ```
 Brew install cmake  
 Brew install swig   
@@ -32,8 +40,8 @@ You can just run the DQN.py
 You do not need to download data, because all the environments are in gym library.  
 
 ## Credit:
-DQN: https://zhuanlan.zhihu.com/p/137787080  
-&emsp;&emsp;&ensp;&nbsp;Difference: rewrite the code from tensorflow to pytorch  
+### DQN: https://zhuanlan.zhihu.com/p/137787080  
+>>>>>Difference: rewrite the code from tensorflow to pytorch  
                  change replay_size from 2000 to 10000  
                  change learning rate from 0.001 to 0.01  
                  change the way of randomly selecting actions  
