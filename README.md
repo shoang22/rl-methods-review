@@ -50,10 +50,11 @@ Difference:
 * delete policy modification  
 * change the training process (including target Q value and online Q value)  
 
-DDPG: https://zhuanlan.zhihu.com/p/65931777?ivk_sa=1024320u  
-      Difference: change the network structure  
-                  change y_true  
-                  add 'done' to replay buffer  
-                  change learning rate from 0.001 to 0.01  
-                  add stochastic action selection mechanism  
+### DDPG: https://zhuanlan.zhihu.com/p/65931777?ivk_sa=1024320u  
+Difference: 
+* change the network structure  
+* change y_true  
+* add 'done' to replay buffer  
+* change learning rate from 0.001 to 0.01  
+* add stochastic action selection mechanism  
                   
