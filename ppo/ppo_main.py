@@ -12,7 +12,7 @@ if __name__ == '__main__':
     N = 20
     batch_size = 5
     n_epochs = 4
-    alpha = 0.0001
+    alpha = 0.001
     agent = Agent(n_actions=env.action_space.n, batch_size=batch_size,
                     alpha=alpha, n_epochs=n_epochs,
                     input_dims=env.observation_space.shape)
