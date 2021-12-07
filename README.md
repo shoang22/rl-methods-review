@@ -34,7 +34,18 @@ pip install box2d box2d-kengz
 ```
                 
 ## Demo file:
-You can just run the DQN.py  
+DQN:
+Run DQN.py  
+
+DDPG:
+Run the DDPG.py
+
+PPO:
+For continuous games, run ppo_main_cont.py
+For discrete games, run ppo_main.py
+
+A3C:
+For continuous games, run 
 
 ## Downloading data:
 You do not need to download data, because all the environments are in gym library.  
@@ -57,4 +68,19 @@ Difference:
 * add 'done' to replay buffer  
 * change learning rate from 0.001 to 0.01  
 * add stochastic action selection mechanism  
+
+### PPO: https://github.com/philtabor/Youtube-Code-Repository/tree/master/ReinforcementLearning/PolicyGradient/PPO/torch
+Difference:
+* modify to run for contunuous games
+* change NN architecture for apples to apples comparision with other methods
+* change learning rate from 0.0003 to 0.01
+* change number of episodes from 300 to 10000
+* add render function
+
+### A3C: https://github.com/MorvanZhou/pytorch-A3C
+Difference:
+* change number of episodes from 3000 to 10000
+* change discount rate from 0.9 to 0.99
+* add function to record time
+* change learning rate from .0001 to .01
                   
