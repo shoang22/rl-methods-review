@@ -40,7 +40,7 @@ pip install box2d box2d-kengz
                 
 ## Demo file:
 DQN:
-Run DQN.py  
+You just need to run DQN.py  
 
 ## Downloading data:
 You do not need to download data, because all the environments are in gym library.  
