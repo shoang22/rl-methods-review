@@ -6,8 +6,13 @@ DQN: Open the DQN.py to modify the environment name on line 159, then run it in 
 
 DDPG: Open the DDPG.py to modify the environment name on line 134, then run it in terminal: "python DDPG.py".
 
+PPO:
+For continuous games, open the ppo_main_cont.py to modify the environment name on line 10, then run it in terminal: "ppo_main_cont.py".
+For discrete games, open the ppo_main.py to modify the environment name on line 10, then run it in terminal: "python ppo_main.py".
 
-
+A3C:
+For continuous games, open the continuous_A3C.py to modify the environment name on line 25, then run it in terminal: "python continuous_A3C.py".
+For discrete games, open the discrete_A3C.py to modify the environment name on line 24, then run it in terminal: "python discrete_A3C.py.py".
 
 ## Dependencies:
 ### pytorch
@@ -36,16 +41,6 @@ pip install box2d box2d-kengz
 ## Demo file:
 DQN:
 Run DQN.py  
-
-DDPG:
-Run the DDPG.py
-
-PPO:
-For continuous games, run ppo_main_cont.py
-For discrete games, run ppo_main.py
-
-A3C:
-For continuous games, run 
 
 ## Downloading data:
 You do not need to download data, because all the environments are in gym library.  
