@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 
     agent.save_agent(actor_path=env_name + '_PPO_actor.h5',critic_path=env_name + '_PPO_critic.h5')
-    np.save('npy/'+env_name+'_PPO.npy',score_history)
+    np.save(env_name+'_PPO.npy',score_history)
     x = [i+1 for i in range(len(score_history))]
     env.close()
     
